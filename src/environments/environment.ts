@@ -3,7 +3,22 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  
+  
+  // TODO: update these vars once we have the backend running
+  studentApiBaseUrl: 'http://studentapi.local/current.json',
+  XRapidAPIHostHeaderName: 'my-header-key1',
+  XRapidAPIHostHeaderValue: 'my-header-value1',
+  XRapidAPIKeyHeaderName: 'my-header-key2', 
+  XRapidAPIKeyHeaderValue: 'my-header-value2'
+ 
+  // weatherApiBaseUrl: 'https://weatherapi-com.p.rapidapi.com/current.json',
+  // XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
+  // XRapidAPIHostHeaderValue: 'weatherapi-com.p.rapidapi.com',
+  // XRapidAPIKeyHeaderName: 'X-RapidAPI-Key', 
+  // XRapidAPIKeyHeaderValue: '5a22dd284cmshaa2221d872a485bp13b0d4jsn76212838a0ae'
+
 };
 
 /*
