@@ -7,7 +7,7 @@ export const environment = {
   
   
   // TODO: update these vars once we have the backend running
-  studentApiBaseUrl: 'http://studentapi.local/current.json',
+  studentApiBaseUrl: 'http://localhost:8080/api/v1/student',
   XRapidAPIHostHeaderName: 'my-header-key1',
   XRapidAPIHostHeaderValue: 'my-header-value1',
   XRapidAPIKeyHeaderName: 'my-header-key2', 

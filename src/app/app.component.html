@@ -5,7 +5,7 @@
   </form>
 </div>
 
-<div class="container" *ngIf="weatherData">
+<div class="container" *ngIf="studentData">
    <div class="lower-data">
     <div class="more-info-label">
       Student Information
@@ -14,40 +14,40 @@
       <div class="info-block">
         <div class="info-block-label">
           <img src="../assets/thermometer-cold.JPG">
-          <span>feels like</span>
+          <span>Student email</span>
         </div>
         <div class="info-block-value">
-          {{ weatherData.current.feelslike_f | number: '1.0-0' }}°F
+          {{ studentData.email }}
         </div>
       </div>
 
       <div class="info-block">
         <div class="info-block-label">
           <img src="../assets/thermometer-hot.JPG">
-          <span>precipitation</span>
+          <span>Student age</span>
         </div>
         <div class="info-block-value">
-          {{ weatherData.current.precip_in }} inches
+          {{ studentData.age }} inches
         </div>
       </div>
 
       <div class="info-block">
         <div class="info-block-label">
           <img src="../assets/humidity.JPG">
-          <span>humidity</span>
+          <span>Date of Birth</span>
         </div>
         <div class="info-block-value">
-          {{weatherData.current.humidity}}%
+          {{studentData.dob}}
         </div>
       </div>
 
       <div class="info-block">
         <div class="info-block-label">
           <img src="../assets/wind.JPG">
-          <span>wind</span>
+          <span>Student Id</span>
         </div>
         <div class="info-block-value">
-          {{weatherData.current.wind_mph}} mph
+          {{studentData.id} 
         </div>
       </div>
 

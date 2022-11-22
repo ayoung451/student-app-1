@@ -27,8 +27,8 @@ export class AppComponent implements OnInit {
   }
 
 
-  private getStudentData(cityName: string) {
-    this.studentService.getStudentData(cityName)
+  private getStudentData(studentName: string) {
+    this.studentService.getStudentData(studentName)
     .subscribe({
       next: (response) => {
   
@@ -38,6 +38,5 @@ export class AppComponent implements OnInit {
       }
     })
   }
-
 
 }

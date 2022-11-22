@@ -1,6 +1,7 @@
 export interface StudentData {
-    name: string
-    age: number
-    gradeLevel: number
-    birthday: Date
+    id: number;
+    name: string;
+    dob: string;
+    email: string;
+    age: number;
 }
