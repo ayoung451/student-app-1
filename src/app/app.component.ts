@@ -35,6 +35,7 @@ export class AppComponent implements OnInit {
         this.studentData = response;
   
         console.log(response);
+        console.log(studentName);
       }
     })
   }
