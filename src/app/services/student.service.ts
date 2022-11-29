@@ -11,8 +11,12 @@ export class StudentService {
 
   constructor(private http: HttpClient) { }
 
-  getStudentData(studentName: string): Observable<StudentData>{    
-    return this.http.get<StudentData>(environment.studentApiBaseUrl, {
+  getStudentData(studentName: string): Observable<StudentData[]>{  
+    
+    
+
+
+    return this.http.get<StudentData[]>(environment.studentApiBaseUrl, {
       headers: new HttpHeaders(), params: new HttpParams()
       //.set('studentName', studentName)
     })

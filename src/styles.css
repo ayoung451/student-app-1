@@ -127,7 +127,7 @@ body {
 }
 
 .info-block-value {
-    width: 50%;
+    width: 10%;
     display: flex;
     justify-content: flex-start;
     align-items: center;

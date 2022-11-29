@@ -32,10 +32,14 @@ export class AppComponent implements OnInit {
     .subscribe({
       next: (response) => {
   
-        this.studentData = response;
-  
+        this.studentData = response[0];
+
+        console.log("Here is the rresponse");
         console.log(response);
-        console.log(studentName);
+        console.log("Here is the studentData.age");
+        console.log(this.studentData.age);
+        console.log("Here is the response.age");
+        //console.log(response[0].age);
       }
     })
   }

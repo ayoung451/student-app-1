@@ -5,3 +5,4 @@ export interface StudentData {
     email: string;
     age: number;
 }
+
