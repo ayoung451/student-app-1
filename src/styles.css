@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 700px;
     height: 80vh;
     background-color: var(--blue-2);
     border-radius: 20px;
@@ -127,8 +127,9 @@ body {
 }
 
 .info-block-value {
-    width: 10%;
+    width: 50%;
     display: flex;
+    font-size: 0.8em;
     justify-content: flex-start;
     align-items: center;
     color: var(--white);
